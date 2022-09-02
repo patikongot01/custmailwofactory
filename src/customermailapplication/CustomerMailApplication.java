@@ -47,7 +47,7 @@ public class CustomerMailApplication {
             case 3:
                  cust = CustomerFactory.createCustomer("Delinquent");
                 break;
-            
         }
+        System.out.println(cust.createMail());
     }
 }
